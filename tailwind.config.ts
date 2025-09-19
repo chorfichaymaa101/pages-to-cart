@@ -75,9 +75,12 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+<<<<<<< HEAD
         fontFamily: {
           sans: ["Poppins", "ui-sans-serif", "system-ui"], // <-- add this
         },
+=======
+>>>>>>> c55c62f891524e1cfb20427b37fd7d24c7889b19
       keyframes: {
         "accordion-down": {
           from: {

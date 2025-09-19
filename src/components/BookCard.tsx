@@ -20,6 +20,7 @@ export function BookCard({ book, variant = "default" }: BookCardProps) {
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
+
     if (!isInCart(book.id)) {
       addToCart(book);
       toast({

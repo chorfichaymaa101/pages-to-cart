@@ -96,6 +96,7 @@ export function Navigation() {
           <div className="flex items-center space-x-4">
             <Link to="/cart">
               <Button variant="outline" size="sm" className="relative bg-primary text-white hover:bg-primaryy hover:text-black">
+
                 <ShoppingCart className="h-4 w-4" />
                 {cartState.itemCount > 0 && (
                   <Badge 
@@ -113,6 +114,7 @@ export function Navigation() {
               variant="ghost"
               size="sm"
               className="md:hidden bg-primary text-white hover:bg-primaryy hover:text-black"
+        
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
